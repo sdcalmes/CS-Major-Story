@@ -1,0 +1,59 @@
+Part 1:
+
+Application Name: CS Major Life
+
+Description: College life simulator for a Computer Science Major.
+
+Team: Andy Ni, Michael Salmon, Sam Calmes
+
+Platform: Unity Game Engine
+
+Part 2:
+
+Application Overview: This app is a simulator of what four years through college for a CS major is like. The main objective of the app is to get your degree for CS, the secondary objective is to have a good GPA, make connections, and not go into bankruptcy.
+
+Technical Design:
+Start: randomized starting stats and Neutral Mood
+Completing Projects gives you a random POSITIVE modifier
+Failing Projects give you a random NEGATIVE modifier
+If you complete a project and have NEGATIVE modifiers, you choose to have a NEGATIVE modifier removed rather than Getting a POSITIVE modifier
+
+Stats:
+Mood (Depressed (-50%) - Neutral (0%) - Happy (50%)) Multiplier to stats
+Decreases when working at JOBs, doing PROJECTs
+Increase when doing social activities (such as going to class for minor boost, or hanging out with friends for larger boost
+
+Algorithm (Performance) - Completing PROJECTs and going to Math courses improve stat
+UI/UE (Design) - Completing PROJECTs that have Design elements and going to Art courses improve stat
+Coding: C, JAVA, Assembly (Different PROJECTs have different coding requirements)
+	- Completing PROJECTs that use that programming language, going to CS courses that teach that coding language, or practicing a specific language
+
+Computer Upgrades - CPU, MEMORY, GPU (Gives boost to performance and project completion time) - Reduces time requirement to complete projects while retaining quality, allowing for more time to invest in JOBs or other activities.
+
+JOBs - (Pay living expenses and afford upgrades)
+
+Art Design:
+	I think an Isometric view would be the best aesthetically (though top view or front view would be a lot easier to do movements for)
+	Graphically, I think pixel art would be easiest to create movement animation for
+
+Milestones:
+
+Milestone 1 (3/1 - 3/14)
+Build Main Menu
+Define all classes, jobs, moods, upgrades, etc. to be implemented
+
+Milestone 2 (3/15 - 3/28)
+	Basic engine of game complete
+	Adding more features
+
+Milestone 3 (3/29 - 4/11)
+	Game can be played from start to finish
+	Implement most of the final graphics
+	Add additional features
+	If not going well, fall back to runner idea
+
+Milestone 4 (4/12 - 4/25)
+	Full implementation completed
+
+Milestone 5 (4/26 - 5/3)
+	Bug Hunt / Beta Testing
